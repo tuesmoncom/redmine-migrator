@@ -1,0 +1,5 @@
+
+rootProject.name = 'tuesmontor'
+
+include 'redmine'
+include 'gui'

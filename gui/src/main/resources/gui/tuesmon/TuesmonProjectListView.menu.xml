@@ -1,0 +1,14 @@
+<menuBar>
+    <deleteSelected
+        name="delete" 
+        toolBarGroup="1"
+        enabled="false"
+        enableToolButtonText="true" 
+        icon="org/viewaframework/widget/icon/fan/img/bin/bin_closed.png"/>
+    <refresh
+        name="refresh" 
+        text="Refresh list..." 
+        toolBarGroup="1"
+        enableToolButtonText="true" 
+        icon="org/viewaframework/widget/icon/fan/img/arrow/arrow_refresh.png"/>
+</menuBar>

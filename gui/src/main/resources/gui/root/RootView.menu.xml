@@ -1,0 +1,35 @@
+<menuBar>
+    <projects text="Projects">
+        
+        <redmine
+            text="Redmine projects"
+            enableToolButtonText="false" 
+            toolBarGroup="1"
+            keyStroke="CTRL_R"
+            icon="gui/img/redmine.png"/>
+        <tuesmon
+            text="Tuesmon projects"
+            enableToolButtonText="false" 
+            icon="gui/img/tuesmon.png"/>
+        <separator/>
+        <settings
+            text="Settings"
+            enableToolButtonText="false" 
+            toolBarGroup="1"
+            keyStroke="CTRL_S"
+            icon="org/viewaframework/widget/icon/fan/img/server/server_connect.png"/>
+        <separator/>
+        <exit 
+            name="exit"
+            enableToolButtonText="false" 
+            icon="org/viewaframework/widget/icon/fan/img/door/door_in.png"
+            keyStroke="CTRL_X"/>
+    </projects>
+    <about text="About">
+        <aboutTuesmon
+            toolBarGroup="2"
+            enableToolButtonText="false" 
+            icon="org/viewaframework/widget/icon/fan/img/misc/help.png"
+            keyStroke="CTRL_I"/>
+    </about>
+</menuBar>
